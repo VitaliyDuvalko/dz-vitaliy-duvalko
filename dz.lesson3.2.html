@@ -22,8 +22,8 @@
 		// (d>a && a>b && b>c)
 		// (c>b && b>a && a>d)
 
-		var a = 10; var a2 = a;
-		var b = 3; var b2 = b;
+		var a = 3; var a2 = a;
+		var b = 10; var b2 = b;
 		var c = 40; var c2 = c;
 		var d = 20; var d2 = d;
 
@@ -107,6 +107,168 @@
 			console.log(" b = "+b2+" * 5 = "+b)
 			console.log(" c = "+c2)
 		}
+// 9
+		else if (a>c && c>d && d>b) {
+			a *= 20;
+			c *= 10;
+			d *= 5;
+			console.log(" a = "+a2+" * 20 = "+a)
+			console.log(" c = "+c2+" * 10 = "+c)
+			console.log(" d = "+d2+" * 5 = "+d)
+			console.log(" b = "+b2)
+		}
+// 10
+		else if (a>d && d>b && b>c) {
+			a *= 20;
+			d *= 10;
+			b *= 5;
+			console.log(" a = "+a2+" * 20 = "+a)
+			console.log(" d = "+d2+" * 10 = "+d)
+			console.log(" b = "+b2+" * 5 = "+b)
+			console.log(" c = "+c2)
+		}
+// 11
+		else if (a>b && b>d && d>c) {
+			a *= 20;
+			b *= 10;
+			d *= 5;
+			console.log(" a = "+a2+" * 20 = "+a)
+			console.log(" b = "+b2+" * 10 = "+b)
+			console.log(" d = "+d2+" * 5 = "+d)
+			console.log(" c = "+c2)
+		}
+// 12
+		else if (a>c && c>b && b>d) {
+			a *= 20;
+			c *= 10;
+			b *= 5;
+			console.log(" a = "+a2+" * 20 = "+a)
+			console.log(" c = "+c2+" * 10 = "+c)
+			console.log(" b = "+b2+" * 5 = "+b)
+			console.log(" d = "+d2)
+		}
+// 13
+		else if (b>a && a>c && c>d) {
+			b *= 20;
+			a *= 10;
+			c *= 5;
+			console.log(" b = "+b2+" * 20 = "+b)
+			console.log(" a = "+a2+" * 10 = "+a)
+			console.log(" c = "+c2+" * 5 = "+c)
+			console.log(" d = "+d2)
+		}
+// 14
+		else if (b>c && c>a && a>d) {
+			b *= 20;
+			c *= 10;
+			a *= 5;
+			console.log(" b = "+b2+" * 20 = "+b)
+			console.log(" c = "+c2+" * 10 = "+c)
+			console.log(" a = "+a2+" * 5 = "+a)
+			console.log(" d = "+d2)
+		}
+// 15
+		else if (b>d && d>a && a>c) {
+			b *= 20;
+			d *= 10;
+			a *= 5;
+			console.log(" b = "+b2+" * 20 = "+b)
+			console.log(" d = "+d2+" * 10 = "+d)
+			console.log(" a = "+a2+" * 5 = "+a)
+			console.log(" c = "+c2)
+		}
+// 16
+		else if (b>d && d>c && c>a) {
+			b *= 20;
+			d *= 10;
+			c *= 5;
+			console.log(" b = "+b2+" * 20 = "+b)
+			console.log(" d = "+d2+" * 10 = "+d)
+			console.log(" c = "+c2+" * 5 = "+c)
+			console.log(" a = "+a2)
+		}
+// 17
+		else if (c>a && a>b && b>d) {
+			c *= 20;
+			a *= 10;
+			b *= 5;
+			console.log(" c = "+c2+" * 20 = "+c)
+			console.log(" a = "+a2+" * 10 = "+a)
+			console.log(" b = "+b2+" * 5 = "+b)
+			console.log(" d = "+d2)
+		}
+// 18
+		else if (c>a && a>d && d>b) {
+			c *= 20;
+			a *= 10;
+			d *= 5;
+			console.log(" c = "+c2+" * 20 = "+c)
+			console.log(" a = "+a2+" * 10 = "+a)
+			console.log(" d = "+d2+" * 5 = "+d)
+			console.log(" b = "+b2)
+		}
+// 19
+		else if (c>b && b>d && d>a) {
+			c *= 20;
+			b *= 10;
+			d *= 5;
+			console.log(" c = "+c2+" * 20 = "+c)
+			console.log(" b = "+b2+" * 10 = "+b)
+			console.log(" d = "+d2+" * 5 = "+d)
+			console.log(" a = "+a2)
+		}
+// 20
+		else if (c>d && d>b && b>a) {
+			c *= 20;
+			d *= 10;
+			b *= 5;
+			console.log(" c = "+c2+" * 20 = "+c)
+			console.log(" d = "+d2+" * 10 = "+d)
+			console.log(" b = "+b2+" * 5 = "+b)
+			console.log(" a = "+a2)
+		}
+// 21
+
+		else if (d>a && a>c && c>b) {
+			d *= 20;
+			a *= 10;
+			c *= 5;
+			console.log(" d = "+d2+" * 20 = "+d)
+			console.log(" a = "+a2+" * 10 = "+a)
+			console.log(" c = "+c2+" * 5 = "+c)
+			console.log(" b = "+b2)
+		}
+// 22
+		else if (d>b && b>c && c>a) {
+			d *= 20;
+			b *= 10;
+			c *= 5;
+			console.log(" d = "+d2+" * 20 = "+d)
+			console.log(" b = "+b2+" * 10 = "+b)
+			console.log(" c = "+c2+" * 5 = "+c)
+			console.log(" a = "+a2)
+		}
+// 23
+		else if (d>b && b>a && a>c) {
+			d *= 20;
+			b *= 10;
+			a *= 5;
+			console.log(" d = "+d2+" * 20 = "+d)
+			console.log(" b = "+b2+" * 10 = "+b)
+			console.log(" a = "+a2+" * 5 = "+a)
+			console.log(" c = "+c2)
+		}
+// 24
+		else if (d>c && c>a && a>b) {
+			d *= 20;
+			c *= 10;
+			a *= 5;
+			console.log(" d = "+d2+" * 20 = "+d)
+			console.log(" c = "+c2+" * 10 = "+c)
+			console.log(" a = "+a2+" * 5 = "+a)
+			console.log(" b = "+b2)
+		}
+
 	</script>
 </body>
 </html>
