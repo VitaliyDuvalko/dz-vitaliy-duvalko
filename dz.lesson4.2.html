@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Задача 2</title>
+</head>
+<body>
+	<script>
+		// Изменить порядок эл-тов массива на обратный (а-ля reverce();
+		// создаем новый массив, и делаем в нем всю нужную магию.
+		var arr = [1,2,3,4,5,6,77,3,5];
+		var arr_reverse = [];
+		for (var i = (arr.length-1); i>=0;  i-=1) {
+			arr_reverse.push(arr[i]);
+		}
+		console.log("изначально массив имел такой вид \n"+arr);
+		console.log("а теперь такой вид \n"+arr_reverse);
+	</script>
+</body>
+</html>
